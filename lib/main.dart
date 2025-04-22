@@ -111,3 +111,9 @@ MaterialColor getThemeColor(String? condition) {
       return Colors.blue;
   }
 }
+// Create State
+// Create Cubit
+// Create Function
+// Provide Cubit
+// Integrate Cubit
+// Trigger Cubit

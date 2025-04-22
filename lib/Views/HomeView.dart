@@ -16,7 +16,7 @@ class HomeView extends StatelessWidget {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.orange, Colors.blue],
+              colors: [Colors.blue,Colors.orange ],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
@@ -50,7 +50,7 @@ class HomeView extends StatelessWidget {
               weathermodel: state.weathermodel,
             );
           else
-            return Center(
+            return const Center(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [

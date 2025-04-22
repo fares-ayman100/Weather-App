@@ -14,9 +14,6 @@ class WeatherInfoBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Weathermodel weathermodel =
-        BlocProvider.of<GetWeatherCubit>(context).weathermodel!;
-
     String formattedTime = DateFormat('hh:mm a').format(weathermodel.date);
 
     return Container(
